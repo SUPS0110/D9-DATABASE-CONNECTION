@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+
+    background-image: url(https://wallpapers.com/images/featured/9pvmdtvz4cb0xl37.jpg);
+
+}
+
+.s{
+    background: linear-gradient(to right, beige, rgb(88, 88, 197) , rgb(230, 79, 230), wheat);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    margin-left: 160px;
+    margin-top: 40px;
+
+    padding: 20px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.id{
+    font-size: 25px;
+}
+.title{
+    font-size: 15px;
+    display: flex;
+    align-content: center;
+}
+.rating{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.desc{
+    font-size: 15px;
+}
