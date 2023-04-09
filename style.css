@@ -7,6 +7,12 @@ body{
     background-image: url(https://wallpapers.com/images/featured/9pvmdtvz4cb0xl37.jpg);
 
 }
+.add{
+    font-size: 100px;
+    background-color: aliceblue;
+    height: 100px;
+    width: 100px;
+}
 
 .s{
     background: linear-gradient(to right, beige, rgb(88, 88, 197) , rgb(230, 79, 230), wheat);

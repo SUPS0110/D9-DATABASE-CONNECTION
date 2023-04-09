@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+<div class="add"><a href="./add.php" >ADD NEW</a></div>
 <?php
 $servername="localhost";
 $username="root";
@@ -40,7 +41,11 @@ if($result->num_rows>0){
         <div class="desc">
             <?php echo $row['description'];?>
         </div>
-    </div></div>
+        <a href="./edit.php">EDIT</a>
+<a href="./delete.php?id=
+<?php echo $row['id']; ?>
+">DELETE</a></div>
+    </div>
  <?php   } ?>
 <?php }
 $conn->close();
