@@ -41,9 +41,8 @@ if($result->num_rows>0){
         <div class="desc">
             <?php echo $row['description'];?>
         </div>
-        <a href="./edit.php">EDIT</a>
-<a href="./delete.php?id=
-<?php echo $row['id']; ?>
+        <a href="./editform.php?id=<?php echo $row['id'];?>& title=<?php echo $row['title'];?>& rating=<?php echo $row['rating'] ;?>&description=<?php echo $row['description'];?>">EDIT</a>
+<a href="./delete.php?id=<?php echo $row['id']; ?>
 ">DELETE</a></div>
     </div>
  <?php   } ?>
